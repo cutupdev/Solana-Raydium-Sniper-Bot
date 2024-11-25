@@ -1,7 +1,4 @@
-![](readme/spl.png)
-
-**Solana Raydium Sniper Bot** that listens to new Raydium USDC or SOL pools and buys tokens for a fixed amount in USDC/SOL.
-Depending on the speed of the RPC node, the purchase usually happens before the token is available on Raydium UI for swapping. This version is free, but it can still generate stable profits of several hundred dollars per day. You can run it for a few hours to check the earnings. If you want to purchase the premium version, my Telegram is at the bottom. Note: Even for testing, besides using WSOL as the exchange token, it’s important to keep more SOL for transaction fees. The correct configuration is 0.9 SOL / 0.1 WSOL.
+**Solana Raydium Sniper Bot** that listens to new Raydium pools and buys as soon as possible. If RPC or node is good, it commonly buy tokens before token is availabel on Raydium UI, can buy tokens than the others. It's free, basic version, and I have advanced version for it. Feel free to contact with me to get advanced version. [Telegram: https://t.me/DevCutup, Whatsapp: https://wa.me/13137423660]
 
 - `WSOL Snipe`
 - `Auto-Sell`
@@ -20,10 +17,6 @@ To run the script you need to:
 2. Transfer some SOL to it
 3. Convert some SOL to USDC or WSOL (you need USDC or WSOL depending on the configuration set below)
 
-`Jupiter Wrap` : https://jup.ag/
-
-![](readme/jupiterwrap.png)
-
 ## CONFIG
 1. Configure the script by updating `.env.copy` file (**remove the .copy from the file name when done**).
 2. `PRIVATE_KEY` (your wallet private key)
@@ -41,14 +34,10 @@ To run the script you need to:
 14. `TAKE_PROFIT=50` (in %)
 15. `STOP_LOSS=30` (in %)
 16. `BIRDEYE_API_KEY=` (TP/SL, Burn/Lock) generate here : https://docs.birdeye.so/docs/authentication-api-keys
-
-![](readme/env.png)
   
 ## INSTALL
 1. Install dependencies by typing: `npm install`
 2. Run the script by typing: `npm run start` in terminal
-
-![](readme/preview.png)
 
 ## TAKE PROFIT
 
@@ -69,8 +58,6 @@ By default, auto sell is enabled. If you want to disable it, you need to:
 If you set AUTO_SELL_DELAY to 0, token will be sold immediately after it is bought.
 There is no guarantee that the token will be sold at a profit or even sold at all. The developer is not responsible for any losses incurred by using this feature.
 
-![](readme/token.png)
-
 ## SNIPE LIST
 By default, script buys each token which has a new liquidity pool created and open for trading.
 There are scenarios when you want to buy one specific token as soon as possible during the launch event.
@@ -83,8 +70,6 @@ You can update the list while script is running. Script will check for new value
 
 Pool must not exist before the script starts.
 It will buy only when new pool is open for trading. If you want to buy token that will be launched in the future, make sure that script is running before the launch.
-
-![](readme/snipelist.png)
 
 
 ## COMMON ISSUES
@@ -107,11 +92,3 @@ It will buy only when new pool is open for trading. If you want to buy token tha
 > `Error: No SOL token account found in wallet:`  
 > it means that wallet you provided doesn't have USDC/WSOL token account.
 > FIX: Go to dex and swap some SOL to USDC/WSOL. When you swap sol to wsol you should see it in wallet.
-
-## CONTACT
-Telegram: `@AhmedRabby2002`
-
-## DISCLAIMER
-
-> [!IMPORTANT]
-> Use this script at your own risk.
