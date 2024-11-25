@@ -1,4 +1,4 @@
-**Solana Raydium Sniper Bot** that listens to new Raydium pools and buys as soon as possible. If RPC or node is good, it commonly buy tokens before token is availabel on Raydium UI, can buy tokens than the others. It's free, basic version, and I have advanced version for it. Feel free to contact with me to get advanced version. [Telegram: https://t.me/DevCutup, Whatsapp: https://wa.me/13137423660]
+**Solana Raydium Sniper Bot** that listens to new Raydium pools and buys as soon as possible. If RPC or node is good, it commonly buy tokens before token is availabel on Raydium UI, can buy tokens than the others. It's free, basic version, and I have advanced version for it. Feel free to contact with me to get advanced version. [Telegram: https://t.me/DevCutup, Whatsapp: https://wa.me/13137423660]. This is just version to give vision about sniper bot.
 
 - `WSOL Snipe`
 - `Auto-Sell`
@@ -7,9 +7,6 @@
 - `Burn/Lock Check`
 - `Renounce Check`
 - `Fast Buy`
-
-> [!NOTE]
-> This is provided as is, for learning purposes.
 
 ## SETUP
 To run the script you need to:
