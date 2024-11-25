@@ -70,22 +70,20 @@ It will buy only when new pool is open for trading. If you want to buy token tha
 
 
 ## COMMON ISSUES
+If you have an error which is not listed here, please create a new issue in this repository.
+To collect more information on an issue, please change `LOG_LEVEL` to `debug`.
 
-> [!IMPORTANT]
-> If you have an error which is not listed here, please create a new issue in this repository.
-> To collect more information on an issue, please change `LOG_LEVEL` to `debug`.
-> 
-> ### EMPTY TRANSACTION
-> If you see empty transactions on SolScan most likely fix is to change commitment level to `finalized`.
-> 
-> ### UNSOPPORTED RPC NODE
-> If you see following error in your log file:  
-> `Error: 410 Gone:  {"jsonrpc":"2.0","error":{"code": 410, "message":"The RPC call or parameters have been disabled."}, "id": "986f3599-b2b7-47c4-b951-074c19842bad"}`  
-> It means your RPC node doesn't support methods needed to execute script.
-> FIX: Change your RPC node. You can use Shyft, Helius or Quicknode. 
-> 
-> ### NO TOKEN ACCOUNT
-> If you see following error in your log file:  
-> `Error: No SOL token account found in wallet:`  
-> it means that wallet you provided doesn't have USDC/WSOL token account.
-> FIX: Go to dex and swap some SOL to USDC/WSOL. When you swap sol to wsol you should see it in wallet.
+### EMPTY TRANSACTION
+If you see empty transactions on SolScan most likely fix is to change commitment level to `finalized`.
+
+### UNSOPPORTED RPC NODE
+If you see following error in your log file:  
+`Error: 410 Gone:  {"jsonrpc":"2.0","error":{"code": 410, "message":"The RPC call or parameters have been disabled."}, "id": "986f3599-b2b7-47c4-b951-074c19842bad"}`  
+It means your RPC node doesn't support methods needed to execute script.
+FIX: Change your RPC node. You can use Shyft, Helius or Quicknode. 
+
+### NO TOKEN ACCOUNT
+If you see following error in your log file:  
+`Error: No SOL token account found in wallet:`  
+it means that wallet you provided doesn't have USDC/WSOL token account.
+FIX: Go to dex and swap some SOL to USDC/WSOL. When you swap sol to wsol you should see it in wallet.
