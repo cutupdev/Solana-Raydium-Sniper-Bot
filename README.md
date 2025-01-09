@@ -87,3 +87,15 @@ If you see following error in your log file:
 `Error: No SOL token account found in wallet:`  
 it means that wallet you provided doesn't have USDC/WSOL token account.
 FIX: Go to dex and swap some SOL to USDC/WSOL. When you swap sol to wsol you should see it in wallet.
+
+
+### Transactions
+mint:   https://solscan.io/tx/QKbc9RxNZPE7peDNPnxBtPMux2HfTfn9QN2AwEr7Z5P1SS1qw42FYZcXqzkm9APVkTH88ieZU4PUaCU93yPNfGa
+
+buy:    https://solscan.io/tx/5NV4oAJacFfNffAb55hkb6LEKsSTjgMd8vTzTvDKBLQvQ5XCogizBLShnpF89J8tqFrYJAHaUS5tmXtb6SBpEdNz
+
+sell:   https://solscan.io/tx/5QDYSiST7KX9viNZXSeSATZYMJ5ioJrHJxqu9DVwFzREMarwwmaDXz7EYS1jC9oQq8z7V8GwTsEv94dSwdhU9s5b
+
+![result](./screenshots/1.png)
+![result](./screenshots/2.png)
+![result](./screenshots/3.png)
