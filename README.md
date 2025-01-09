@@ -96,6 +96,6 @@ buy:    https://solscan.io/tx/5NV4oAJacFfNffAb55hkb6LEKsSTjgMd8vTzTvDKBLQvQ5XCog
 
 sell:   https://solscan.io/tx/5QDYSiST7KX9viNZXSeSATZYMJ5ioJrHJxqu9DVwFzREMarwwmaDXz7EYS1jC9oQq8z7V8GwTsEv94dSwdhU9s5b
 
-![result](./screenshots/1.png)
+
 ![result](./screenshots/2.png)
 ![result](./screenshots/3.png)
