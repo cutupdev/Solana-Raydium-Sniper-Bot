@@ -88,3 +88,7 @@ If you see following error in your log file:
 it means that wallet you provided doesn't have USDC/WSOL token account.
 FIX: Go to dex and swap some SOL to USDC/WSOL. When you swap sol to wsol you should see it in wallet.
 
+### Contact Information
+- Telegram: https://t.me/DevCutup
+- Whatsapp: https://wa.me/13137423660
+- Twitter: https://x.com/devcutup
